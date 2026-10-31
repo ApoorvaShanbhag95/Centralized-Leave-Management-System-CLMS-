@@ -1,1 +1,3 @@
-# Centralized-Leave-Management-System-CLMS-
+The organization currently manages employee leave through scattered emails and spreadsheets, making balance calculations error-prone and forcing HR to handle requests and queries manually. Employees and managers also lack a reliable, real-time view of leave balances and request status.
+
+The proposed Leave Management System will centralize employee leave records and standardize the process for submitting, reviewing, approving, and tracking leave. It aims to improve balance accuracy, reduce HR’s administrative workload by at least 50%, and give employees and managers clearer visibility into leave information.
