@@ -1,0 +1,552 @@
+Date: Sat, 31 Oct 2026 11:49:02 +0000 (UTC)
+Message-ID: <840468745.61.1793447342283@4dd058a2c7e2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_60_683239008.1793447342282"
+
+------=_Part_60_683239008.1793447342282
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>BRD - Centralized Leave Management System (CLMS)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>BRD - Centralized Leave Management System (CLMS)</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"42c3ee975af3"><strong>1.Document Overview &amp; Busi=
+ness Purpose</strong></p>
+<p local-id=3D"5c56a73b3d60">The purpose of this project is to centralize a=
+nd automate the organization=E2=80=99s currently fragmented leave managemen=
+t process. By replacing manual, email-based tracking with an automated syst=
+em, the organization aims to reduce Leave Balance calculation errors, decre=
+ase HR operational overhead, and provide real-time visibility into employee=
+ attendance.</p>
+<p local-id=3D"121be248857c"><strong>2.Business Objectives </strong></p>
+<p local-id=3D"7452db7abec6">=E2=80=A2 Standardization: Establish a unified=
+, automated leave application and approval workflow across all organization=
+al departments.</p>
+<p local-id=3D"464f55e4d0fe">=E2=80=A2 Accuracy: Eliminate manual data entr=
+y errors in employee leave balance calculations.</p>
+<p local-id=3D"afbd6e46eb78">=E2=80=A2 Efficiency: Reduce manual administra=
+tive workload on the HR team by at least 50%.</p>
+<p local-id=3D"d304f5fb603e">=E2=80=A2 Transparency: Provide employees and =
+managers real-time visibility into leave balances and request statuses.</p>
+<ol start=3D"3" local-id=3D"1405d949296e">
+<li local-id=3D"4e2b3c4a151a">
+<p local-id=3D"e83ef9ba7308"><strong>Stakeholder Roles &amp; Responsibiliti=
+es</strong></p>
+</li>
+</ol>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"center" data-local-id=3D"ab2=
+c625a-d2e4-42af-90ec-48d065579da0" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"15d87c932f8a">
+<th data-local-id=3D"e828a1b7774b" class=3D"confluenceTh">
+<p local-id=3D"83aff3d23647">Stakeholder Group</p>
+</th>
+<th data-local-id=3D"a8153b5057df" class=3D"confluenceTh">
+<p local-id=3D"dacc2d73df29">Project Role</p>
+</th>
+<th data-local-id=3D"fc1d974d8130" class=3D"confluenceTh">
+<p local-id=3D"2e88dd03fde1">Core System Responsibilities</p>
+</th>
+</tr>
+<tr data-local-id=3D"dff9485381b4">
+<td data-local-id=3D"a935aa4fdbc4" class=3D"confluenceTd">
+<p local-id=3D"9e9330b6582f">Employees</p>
+</td>
+<td data-local-id=3D"ccc0a15c209e" class=3D"confluenceTd">
+<p local-id=3D"5efda2d46278">End User</p>
+</td>
+<td data-local-id=3D"94eb48a4e77d" class=3D"confluenceTd">
+<p local-id=3D"aabce77c8ba4">Submit leave requests; view real-time balances=
+ and status.</p>
+</td>
+</tr>
+<tr data-local-id=3D"4d0bd0d97b05">
+<td data-local-id=3D"64078c0e210d" class=3D"confluenceTd">
+<p local-id=3D"06941bb53b31">Managers</p>
+</td>
+<td data-local-id=3D"868fc1b6ef7e" class=3D"confluenceTd">
+<p local-id=3D"c7bea20ac6d5">Approver</p>
+</td>
+<td data-local-id=3D"5a627f07e552" class=3D"confluenceTd">
+<p local-id=3D"01ff655855bd">Review, approve, or reject team leave requests=
+.</p>
+</td>
+</tr>
+<tr data-local-id=3D"3332d38e27e3">
+<td data-local-id=3D"f32a0ff40285" class=3D"confluenceTd">
+<p local-id=3D"9a0fdca324c8">HR Department</p>
+</td>
+<td data-local-id=3D"b5cc3ba597b6" class=3D"confluenceTd">
+<p local-id=3D"4e40a9106073">System Administrator / Owner</p>
+</td>
+<td data-local-id=3D"5a3990a3824c" class=3D"confluenceTd">
+<p local-id=3D"b9f5794400a4">Maintain leave policies, adjust master records=
+, and oversee compliance.</p>
+</td>
+</tr>
+<tr data-local-id=3D"178960e1f4fc">
+<td data-local-id=3D"1a3b88fc0665" class=3D"confluenceTd">
+<p local-id=3D"bd2b1281311b">Executive Management</p>
+</td>
+<td data-local-id=3D"c8b1238a82bb" class=3D"confluenceTd">
+<p local-id=3D"27adedc4c3fb">Project Sponsor</p>
+</td>
+<td data-local-id=3D"76c130b9ae14" class=3D"confluenceTd">
+<p local-id=3D"0e8979d5513e">Review high-level usage reports and strategic =
+attendance metrics.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"775c67e29a26"><strong>4.Current State &amp; Problem Statemen=
+t </strong></p>
+<p local-id=3D"d23b67167c7d">Currently, leave records are maintained manual=
+ly across disparate emails and spreadsheets. This operational setup introdu=
+ces several key issues:</p>
+<p local-id=3D"8324b80b0951">=E2=80=A2 High Error Rate: Manual balance calc=
+ulations lead to frequent discrepancies in employee leave balances.</p>
+<p local-id=3D"7a238baa4384">=E2=80=A2 Administrative Overhead: HR spends e=
+xcessive time manually verifying balances and updating records.</p>
+<p local-id=3D"5ddc0cbebde8">=E2=80=A2 Lack of Visibility: Employees and ma=
+nagers lack direct, real-time access to current attendance statuses and rem=
+aining leave balances.</p>
+<p local-id=3D"9a3d843b6e9e"><strong>5.Scope Definition</strong></p>
+<p local-id=3D"9a667ea24e0e">5.1 In-Scope</p>
+<p local-id=3D"5e6c58013bfd">=E2=80=A2 Centralized leave application and mu=
+lti-level approval workflows.</p>
+<p local-id=3D"bf0a6021cff2">=E2=80=A2 Automated leave balance deduction an=
+d real-time ledger updates.</p>
+<p local-id=3D"5c9ffc0dbe32">=E2=80=A2 Automated email notifications for st=
+atus updates and balance alerts.</p>
+<p local-id=3D"d86f154c5662">=E2=80=A2 Role-based visibility dashboards for=
+ Employees, Managers, and HR.</p>
+<p local-id=3D"045a8acfd52a">5.2 Out-of-Scope</p>
+<p local-id=3D"0115f6da288c">=E2=80=A2 Integration with Payroll processing =
+systems (Phase 2 consideration).</p>
+<p local-id=3D"ec29e83992a6">=E2=80=A2 Integration with physical biometric =
+hardware/attendance terminals.</p>
+<p local-id=3D"4cff66f592ae"><strong>6.Business Rules </strong></p>
+<p local-id=3D"308a59013ed3">=E2=80=A2 BR-RULE-01 (Planned Leave Notice): P=
+lanned leave requests must be submitted at least 7 calendar days prior to t=
+he start date.</p>
+<p local-id=3D"7ab06dbd7d74">=E2=80=A2 BR-RULE-02 (Emergency Exception): Un=
+planned/Sick leave requests must be submitted within 24 hours of returning =
+to work.</p>
+<p local-id=3D"8ea3111902b6">=E2=80=A2 BR-RULE-03 (Approval Hierarchy): All=
+ leave requests require direct Manager review prior to system finalization.=
+</p>
+<p local-id=3D"37cd5457682f">=E2=80=A2 BR-RULE-04 (Administrative Override)=
+: Only authorized HR personnel possess administrative privileges to manuall=
+y adjust accrued leave balances.</p>
+<ol start=3D"7" local-id=3D"7bbc37fe1770">
+<li local-id=3D"635b3b9fb167">
+<p local-id=3D"2dba4a6c55a2"><strong>Functional Business Requirements</stro=
+ng></p>
+</li>
+</ol>
+<div class=3D"table-wrap">
+<table data-table-width=3D"748" data-layout=3D"center" data-local-id=3D"e0f=
+c3b2e-b888-4cd2-ab5a-ddd7a8060acd" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"c00b6c09dc44">
+<th data-local-id=3D"fc54605bf6e0" class=3D"confluenceTh">
+<p local-id=3D"591e26bba9fa">ID</p>
+</th>
+<th data-local-id=3D"809d84746285" class=3D"confluenceTh">
+<p local-id=3D"fe84fe53b559">Requirement Description</p>
+</th>
+<th data-local-id=3D"c1c5d4deb4b4" class=3D"confluenceTh">
+<p local-id=3D"2b7601a7ca9b">Priority</p>
+</th>
+</tr>
+<tr data-local-id=3D"e91aadae7b9f">
+<td data-local-id=3D"8fc6ddaf7e49" class=3D"confluenceTd">
+<p local-id=3D"d752c28b637c">BR01</p>
+</td>
+<td data-local-id=3D"94926767b47c" class=3D"confluenceTd">
+<p local-id=3D"e14568816d96">The system shall securely store employee profi=
+les, work email addresses, and historical leave logs.</p>
+</td>
+<td data-local-id=3D"55630e60af8b" class=3D"confluenceTd">
+<p local-id=3D"bdccc57b1885">High</p>
+</td>
+</tr>
+<tr data-local-id=3D"e1b317ee4ac3">
+<td data-local-id=3D"028705674c64" class=3D"confluenceTd">
+<p local-id=3D"48b72230352e">BR02</p>
+</td>
+<td data-local-id=3D"3a82d6d4e7fe" class=3D"confluenceTd">
+<p local-id=3D"027d6d9d57ad">The system shall provide a self-service portal=
+ for employees to submit leave applications online.</p>
+</td>
+<td data-local-id=3D"6f5729fac7e7" class=3D"confluenceTd">
+<p local-id=3D"3ed9cc4f65d9">High</p>
+</td>
+</tr>
+<tr data-local-id=3D"1a0c0eed307a">
+<td data-local-id=3D"5ba219ba214b" class=3D"confluenceTd">
+<p local-id=3D"a1e4199b1c2d">BR03</p>
+</td>
+<td data-local-id=3D"9ae64b08f633" class=3D"confluenceTd">
+<p local-id=3D"4720b6723bcd">The system shall enforce Role-Based Access Con=
+trol (RBAC), restricting master record editing privileges to HR administrat=
+ors.</p>
+</td>
+<td data-local-id=3D"54e22a2889b5" class=3D"confluenceTd">
+<p local-id=3D"bbec17e81396">High</p>
+</td>
+</tr>
+<tr data-local-id=3D"cb459ce4b50a">
+<td data-local-id=3D"99306d91025a" class=3D"confluenceTd">
+<p local-id=3D"3592d17120cc">BR04</p>
+</td>
+<td data-local-id=3D"9e22d81be17f" class=3D"confluenceTd">
+<p local-id=3D"ed92913d8a79">The system shall route leave requests to the e=
+mployee=E2=80=99s assigned manager for approval or rejection.</p>
+</td>
+<td data-local-id=3D"6cafe84b6914" class=3D"confluenceTd">
+<p local-id=3D"7785e662e021">High</p>
+</td>
+</tr>
+<tr data-local-id=3D"cb074a73438d">
+<td data-local-id=3D"d60487064f40" class=3D"confluenceTd">
+<p local-id=3D"386b51ddc55a">BR05</p>
+</td>
+<td data-local-id=3D"4ad3358832c5" class=3D"confluenceTd">
+<p local-id=3D"23e41d66c3b0">The system shall automatically deduct approved=
+ leave days from the employee's total leave balance upon approval.</p>
+</td>
+<td data-local-id=3D"015f4909d750" class=3D"confluenceTd">
+<p local-id=3D"a874f3f0a7e9">High</p>
+</td>
+</tr>
+<tr data-local-id=3D"6a21846252e5">
+<td data-local-id=3D"70cae78b4b52" class=3D"confluenceTd">
+<p local-id=3D"c78a98fac177">BR06</p>
+</td>
+<td data-local-id=3D"d4c5e81a7fb0" class=3D"confluenceTd">
+<p local-id=3D"4cd177d0e1ea">The system shall trigger automated email notif=
+ications using official corporate email channels to update employees on req=
+uest statuses and updated balances.</p>
+</td>
+<td data-local-id=3D"13010d2f7bc8" class=3D"confluenceTd">
+<p local-id=3D"d61165f8afe8">Medium</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"024db9c0c07b"><strong>8.Assumptions &amp; Constraints</stron=
+g></p>
+<p local-id=3D"5732dcb7fd68">Assumptions</p>
+<p local-id=3D"cd66c26b6caf">1. Comprehensive training will be provided to =
+HR personnel and managers prior to system deployment.</p>
+<p local-id=3D"0b5e17bcdfa9">2. Employees have access to company email addr=
+esses and the internal network/portal.</p>
+<p local-id=3D"aee5f74a65ef">Constraints</p>
+<p local-id=3D"1f95b91950da">1. Timeline: The project must be deployed with=
+in the agreed fixed timeline.</p>
+<p local-id=3D"08c25bfbd56d">2. Budget: System design and implementation mu=
+st strictly adhere to the allocated financial budget.</p>
+<p local-id=3D"99355e50cc99"><strong>9.Success Criteria</strong></p>
+<p local-id=3D"5fd82c07ab09">=E2=80=A2 100% Centralization: All employee le=
+ave records migrated to and managed within the new platform. =E2=80=A2 Zero=
+ Discrepancies: Elimination of calculation errors in active employee leave =
+balances.</p>
+<p local-id=3D"15b51a99d40f">=E2=80=A2 Operational Efficiency: 50% reductio=
+n in time spent by HR managing manual leave queries within 90 days of launc=
+h.</p>
+<ol start=3D"10" local-id=3D"790beb59c551">
+<li local-id=3D"e6eda0258d86">
+<p local-id=3D"7417823b4d6c"><strong>Document Approvals</strong></p>
+</li>
+</ol>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"32=
+d0b2e1-bcfc-4de3-9990-0bf4429feb9c" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"734ecf1d1dac">
+<th data-local-id=3D"20706ecd766f" class=3D"confluenceTh">
+<p local-id=3D"1a51fbd173ad">Stakeholder Role</p>
+</th>
+<th data-local-id=3D"a3ba53afbf37" class=3D"confluenceTh">
+<p local-id=3D"692817095b20">Name / Title</p>
+</th>
+<th data-local-id=3D"a860a6fe49de" class=3D"confluenceTh">
+<p local-id=3D"57a308b01a90">Signature</p>
+</th>
+<th data-local-id=3D"c379d3cf0d47" class=3D"confluenceTh">
+<p local-id=3D"346dd7db3e65">Date</p>
+</th>
+</tr>
+<tr data-local-id=3D"833cee75a91b">
+<td data-local-id=3D"b2686a05f455" class=3D"confluenceTd">
+<p local-id=3D"c7613168b967">Business Sponsor</p>
+</td>
+<td data-local-id=3D"448d0443363a" class=3D"confluenceTd">
+<p local-id=3D"17bce40d0eff">Management Representative</p>
+</td>
+<td data-local-id=3D"386089d2bd6a" class=3D"confluenceTd">
+<p local-id=3D"0b6ec692ec78"></p>
+</td>
+<td data-local-id=3D"4d788f97da89" class=3D"confluenceTd">
+<p local-id=3D"7061647c5845">DD/MM/YYYY</p>
+</td>
+</tr>
+<tr data-local-id=3D"5aec4ea09024">
+<td data-local-id=3D"6e4ed266edbc" class=3D"confluenceTd">
+<p local-id=3D"c00452754c1a">System Owner</p>
+</td>
+<td data-local-id=3D"e88bc83b36de" class=3D"confluenceTd">
+<p local-id=3D"ca4f139073d6">Head of Human Resources</p>
+</td>
+<td data-local-id=3D"15e196137ca1" class=3D"confluenceTd">
+<p local-id=3D"0559980a8293"></p>
+</td>
+<td data-local-id=3D"6fb0fad0f86e" class=3D"confluenceTd">
+<p local-id=3D"52267322156d">DD/MM/YYYY</p>
+</td>
+</tr>
+<tr data-local-id=3D"1a211d8b6638">
+<td data-local-id=3D"ae1211e1b2ae" class=3D"confluenceTd">
+<p local-id=3D"9fdef498ad6b">Lead Approver</p>
+</td>
+<td data-local-id=3D"1053a91db536" class=3D"confluenceTd">
+<p local-id=3D"fb7858997e22">People Operations Manager</p>
+</td>
+<td data-local-id=3D"c981579cfb81" class=3D"confluenceTd">
+<p local-id=3D"737ecd46eaae"></p>
+</td>
+<td data-local-id=3D"c61d8d5203bf" class=3D"confluenceTd">
+<p local-id=3D"ae061952842f">DD/MM/YYYY</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_60_683239008.1793447342282--
